@@ -1,0 +1,40 @@
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#logo {
+    position: absolute; 
+    top: 20px; 
+    left: 20px;
+    height: 100px;
+    width: 100;
+}
+
+marquee {
+    background-color: #e7cccc;
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    display: block;
+    line-height: 40px;
+    height: 550px;
+    width: 60%;
+    overflow: hidden;
+    position: relative;
+    margin: 45px auto 0;
+    border-radius: 20px;
+    opacity: .9;  
+}
+
+audio {
+    display: block;
+    width: 60%;
+    position: relative;
+    margin: 4px auto 0;
+
+}
